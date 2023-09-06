@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-bgdg
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/rh-gitops-bot/jvm-build-emgn-tenant/jvm-build-suite-application-cvqa/jvm-build-suite-component-bgdg@sha256:0f665db8bcc07c6056336e0c391f32c251c452c817f8d803494e47e9bab66373
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
